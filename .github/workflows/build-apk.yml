@@ -14,7 +14,7 @@ jobs:
       - name: Extract project
         run: |
           mkdir build-project
-          unzip TaskTracker_V12_Android_Project.zip -d build-project
+          unzip TaskTracker_V13_Android_Project.zip -d build-project
 
       - name: Set up Java
         uses: actions/setup-java@v4
